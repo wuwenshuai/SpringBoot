@@ -1,4 +1,4 @@
-package com.carry.dao;
+package com.carry.test01.dao;
 
 import com.carry.Domain.User;
 import org.apache.ibatis.annotations.Insert;
@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-public interface UserMapper {
+public interface UserMapperTest01 {
     @Select("select * from user")
     List<User> findAllUser();
 
