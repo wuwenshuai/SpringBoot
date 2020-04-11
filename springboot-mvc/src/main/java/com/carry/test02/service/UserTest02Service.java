@@ -20,9 +20,10 @@ public class UserTest02Service {
         return allUser;
     }
 
-    @Transactional
+    @Transactional(transactionManager = "test2TransactionManager")
     public int inserUser(String name, Integer id) {
         int insert = userMapper.insert(name, id);
+        //int i = 1/0;
         return insert;
     }
 }

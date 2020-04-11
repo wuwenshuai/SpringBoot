@@ -20,9 +20,10 @@ public class UserTest01Service {
         return allUser;
     }
 
-    //@Transactional(transactionManager = "test2TransactionManager") 需要制定事务管理者
+    @Transactional(transactionManager = "test1TransactionManager") //需要制定事务管理者
     public int inserUser(String name, Integer id) {
         int insert = userMapper.insert(name, id);
+        int a = 1/0;
         return insert;
     }
 }

@@ -20,6 +20,6 @@ public class MybatisMultilDataSourceController {
 
 	@RequestMapping("/insertUserTest2")
 	public Integer insertUserTest2() {
-		return userServiceTest02.inserUser("222", 222);
+		return userServiceTest02.inserUser("2222", 2222);
 	}
 }
