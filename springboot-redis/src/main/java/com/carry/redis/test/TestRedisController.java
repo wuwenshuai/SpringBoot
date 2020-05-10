@@ -11,11 +11,10 @@ public class TestRedisController {
 
     @Autowired
     private RedisTemplateService redisTemplateService;
-    @GetMapping("/strng")
+
+    @GetMapping("/stock")
     public String setStr() {
-        redisTemplateService.set("hahaha", "hehehe", 10L);
+        redisTemplateService.set("stock", "50", null);
         return redisTemplateService.getString("hahaha");
     }
-
-
 }
