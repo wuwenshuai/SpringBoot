@@ -1,0 +1,4 @@
+name: none
+spring:
+  profiles:
+    active: dev
