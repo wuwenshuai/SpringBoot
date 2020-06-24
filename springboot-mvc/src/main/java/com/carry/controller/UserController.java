@@ -18,7 +18,6 @@ public class UserController {
 
     @GetMapping("/user")
     List<User> getUsers() {
-
         Random random = new Random();
         userService.inserUser("ca", random.nextInt(999999999));
         return userService.getUsers();
