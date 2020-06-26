@@ -17,6 +17,6 @@ public class InterruptDemo {
         }, " InterruptDemo");
         thread.start();
         TimeUnit.SECONDS.sleep(1);
-        thread.interrupt(); //加不加的效果对比  中断当前线程
+       //  thread.interrupt(); //加不加的效果对比  中断当前线程
     }
 }

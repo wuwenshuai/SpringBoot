@@ -14,11 +14,12 @@ public class InterruptDemo1 {
                if (Thread.currentThread().isInterrupted()) {
                    System.out.println("before:"+Thread.currentThread().isInterrupted());
                    Thread.interrupted(); //对线程进行复位
+                   System.out.println("after:"+Thread.currentThread().isInterrupted());
                }
             }
         }, " InterruptDemo");
         thread.start();
         TimeUnit.SECONDS.sleep(1);
-        thread.interrupt(); //加不加的效果对比  中断当前线程
+       // thread.interrupt(); //加不加的效果对比  中断当前线程
     }
 }

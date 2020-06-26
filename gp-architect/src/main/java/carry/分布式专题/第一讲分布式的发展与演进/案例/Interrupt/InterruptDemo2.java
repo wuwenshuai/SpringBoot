@@ -19,7 +19,7 @@ public class InterruptDemo2 {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     //想要结束的话，可以再异常里面处理
-                    break; //加不加的效果
+                    // break; //加不加的效果
                 }
             }
             System.out.println("i:" + i);
