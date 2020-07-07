@@ -4,7 +4,7 @@ public class Synchronized {
 
     // 同步方法
    public synchronized  void sync() {
-       System.out.println("hahahahahaa");
+
    }
 
    // 同步代码块
