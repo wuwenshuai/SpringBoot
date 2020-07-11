@@ -23,6 +23,7 @@
         <module>mybatis源码分析</module>
         <module>gp-architect</module>
         <module>rpc-server</module>
+        <module>format-spring-boot-starter</module>
     </modules>
 
     <!--统一管理jar包版本-->
