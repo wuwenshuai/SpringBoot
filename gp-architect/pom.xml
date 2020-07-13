@@ -54,6 +54,18 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency> <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>2.4.3.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>2.4.1</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>carry-core</artifactId>
