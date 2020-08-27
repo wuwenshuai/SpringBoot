@@ -24,6 +24,7 @@
         <module>gp-architect</module>
         <module>rpc-server</module>
         <module>format-spring-boot-starter</module>
+        <module>easy-excel</module>
     </modules>
 
     <!--统一管理jar包版本-->
